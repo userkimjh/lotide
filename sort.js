@@ -17,3 +17,5 @@ const sort = function(array) {
 
 const array = [10, 2, 5, 1, 9];
 console.log(sort(array));
+
+module.exports = sort;

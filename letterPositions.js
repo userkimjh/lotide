@@ -1,3 +1,5 @@
+const { assert } = require("chai");
+
 const letterPositions = function(sentence) {
   const results = {};
   for (let i=0; i < sentence.length; i++ ) {
@@ -38,4 +40,7 @@ assertArraysEqual(result["u"], [7,20]);
 assertArraysEqual(result["s"], [8,21]);
 assertArraysEqual(result["e"], [9, 16, 22]);
 assertArraysEqual(result["n"], [12]);
+
+module.exports = letterPositions;
+
 
